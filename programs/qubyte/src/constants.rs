@@ -25,7 +25,7 @@ pub const BUYBACK_BPS: u16 = 8_000;
 #[constant]
 pub const TREASURY_BPS: u16 = 2_000;
 
-pub const TREASURY: Pubkey = pubkey!("93DrqNz84L5mGVUZvqiJZMHwRaBi3MV7iCjABzMKXnXD");
+pub const TREASURY: Pubkey = pubkey!("FQBE3jXfRz3Gk6yUqFZQUtpup96nGWGRWkmZzZucCj7M");
 
 #[constant]
 pub const FEE_VAULT_SEED: &[u8] = b"fee_vault";
