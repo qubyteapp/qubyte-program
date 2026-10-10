@@ -1,0 +1,19 @@
+skip_local_validator = true
+
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+qubyte = "QUX1RmY5cmjf1o3dCAM8vKQ8goBxNzY3us1P3JNm62M"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test-sbf"
+
+[hooks]
